@@ -34,9 +34,7 @@ type GLTFResult = GLTF & {
     ['Body.003']: THREE.MeshStandardMaterial
     ['Body.003']: THREE.MeshStandardMaterial
     Mat_1: THREE.MeshStandardMaterial
-    Mat_1: THREE.MeshStandardMaterial
   }
-  animations: GLTFAction[]
 }
 
 export function DogModel(props: JSX.IntrinsicElements['group']) {

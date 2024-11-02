@@ -3,7 +3,7 @@ import * as THREE from 'three'
 import { useGLTF } from '@react-three/drei'
 import { GLTF } from 'three-stdlib'
 import { forwardRef } from 'react'
-import { useLoader } from '@react-three/fiber'
+
 type GLTFResult = GLTF & {
     nodes: {
         Coin_Baked: THREE.Mesh
